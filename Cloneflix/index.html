@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="style/main.css" rel="stylesheet">
-     
-     <title>Teste de layout flix</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="/style/responsividade.css">
+    
+     <!-- owl css -->
+     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+     <title>Cloneflix o melhor para você</title>
 </head>
 <body>
     <header>
@@ -26,16 +32,42 @@
             <div class="container">
                 <h3 class="titulo">Exterminador: Cavaleiros e Dragões (2020)</h3>
                 <p class="descricao">O mercenário e mestre assassino Slade Wilson vive uma vida dupla, como o matador de aluguel conhecido como Exterminador e como um dedicado pai de família. Quando esses dois mundos colidem, por ação de um grupo terrorista, Slade precisa lutar para salvar quem ama. Com sua alma despedaçada e seu filho mais novo em cativeiro, o Exterminador deve pagar por seus pecados do passado para poder vencer as batalhas do futuro.</p>
-
-                <button class="botao">
-                    ASSISTIR AGORA
-                </button>
-                <button class="botao">
-                    MAIS INFORMAÇÕES
-                </button>
+            
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
             </div>
         </div>
     </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"> <img class="box-filme" src="img/min01.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min02.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min03.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min04.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min05.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min06.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min07.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min08.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min09.jpg" alt=""> </div>
+            <div class="item"> <img class="box-filme" src="img/min10.jpg" alt=""> </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>            
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/main.js"></script>
+
 
 </body>
 </html>
